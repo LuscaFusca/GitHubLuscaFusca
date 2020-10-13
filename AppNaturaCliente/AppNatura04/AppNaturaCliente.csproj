@@ -70,6 +70,7 @@
     <Compile Include="ColetaCodigo.cs" />
     <Compile Include="ComandosSQL.cs" />
     <Compile Include="Conexao.cs" />
+    <Compile Include="HelloWebViewClient.cs" />
     <Compile Include="Lista.cs" />
     <Compile Include="ListaCarrinho.cs" />
     <Compile Include="ListViewAdapter.cs" />
@@ -173,6 +174,20 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icone04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\menu_main.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\content_main.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\WW.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
