@@ -131,9 +131,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icone.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\exibeProduto.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
